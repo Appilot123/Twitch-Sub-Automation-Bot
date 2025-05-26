@@ -1,5 +1,16 @@
 <h1 align="center">Twitch Sub Automation Bot</h1>
 
+## Project Overview:
+This project simulates Twitch subscriber interactions using automated bots, designed to artificially inflate sub counts or trigger Twitch events tied to subscriptions. While primarily built for educational and testing purposes, the bot mimics legitimate user behavior to avoid detection. It targets Twitch's frontend and event systems via web automation and stealth browser environments.
+
+The challenge lies in emulating real-time sub events without triggering Twitch's fraud detection systems. This tool is aimed at developers researching streaming automation, emulation of Twitch economics, or building moderation and detection counter-systems.
+
+
+## Core Features:
+- **Stealthy Browser Automation:** Leveraging Multilogin/GoLogin with Playwright to bypass Twitch’s bot detection and CAPTCHA layers.
+- **Simulated Payment & Event Triggers:** Fakes subscription signals via interaction with payment endpoints or sub overlays.
+- **Human-like Delay Mechanics:** Mimics real-user activity using randomized timings, navigation flows, and mouse patterns.
+
 <div align="center">
   <img
     src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
@@ -63,16 +74,6 @@
 
 <div align="left">
 
-## Project Overview:
-This project simulates Twitch subscriber interactions using automated bots, designed to artificially inflate sub counts or trigger Twitch events tied to subscriptions. While primarily built for educational and testing purposes, the bot mimics legitimate user behavior to avoid detection. It targets Twitch's frontend and event systems via web automation and stealth browser environments.
-
-The challenge lies in emulating real-time sub events without triggering Twitch's fraud detection systems. This tool is aimed at developers researching streaming automation, emulation of Twitch economics, or building moderation and detection counter-systems.
-
-
-## Core Strengths:
-- **Stealthy Browser Automation:** Leveraging Multilogin/GoLogin with Playwright to bypass Twitch’s bot detection and CAPTCHA layers.
-- **Simulated Payment & Event Triggers:** Fakes subscription signals via interaction with payment endpoints or sub overlays.
-- **Human-like Delay Mechanics:** Mimics real-user activity using randomized timings, navigation flows, and mouse patterns.
 
 ## Features List:
 | Feature                       | Description                                                                   |
